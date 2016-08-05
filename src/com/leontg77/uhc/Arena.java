@@ -1,4 +1,4 @@
-package com.leontg77.uhc;
+package com.itzmarcus.uhc;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,10 +13,7 @@ import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-/**
- * PvP Arena class.
- * @author LeonTG77
- */
+
 public class Arena {
 	private Settings settings = Settings.getInstance();
 	private static Arena instance;
